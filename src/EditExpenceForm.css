@@ -1,0 +1,24 @@
+/* Edit expense form styles */
+.edit-expense-form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .edit-expense-form input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .edit-expense-form button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+  }
+  

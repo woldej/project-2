@@ -1,0 +1,85 @@
+/* Global styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Main content */
+.main {
+  padding: 20px;
+}
+
+/* Expense list */
+.expenses {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.expense {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.expense-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.expense-amount {
+  font-size: 14px;
+}
+
+/* Add expense form */
+.add-expense-form {
+  margin-bottom: 20px;
+}
+
+.add-expense-form input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.add-expense-form button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Edit expense form */
+.edit-expense-form {
+  margin-bottom: 20px;
+}
+
+.edit-expense-form input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.edit-expense-form button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
